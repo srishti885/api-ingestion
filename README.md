@@ -1,6 +1,8 @@
 
 
 # API Ingestion & Schema Normalization Framework
+
+Live Demo : https://api-ingestion-utk3qm8amlfbcv3llad23v.streamlit.app
 ## 1. Project Overview
 
 This repository contains a modular Data Engineering framework designed to automate the extraction of unstructured data from external REST API endpoints. The system focuses on **JSON Normalization (Flattening)** and metadata enrichment to prepare raw API responses for downstream Lakehouse integration.
