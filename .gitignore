@@ -1,0 +1,25 @@
+# --- Python Environment ---
+# Virtual environment ko ignore karne ke liye
+venv/
+env/
+.env
+__pycache__/
+*.py[cod]
+
+# --- Project Specific Data ---
+# Staging data ko ignore karna chahiye (sirf code push hona chahiye)
+staging_zone/
+data/
+*.csv
+*.json
+
+# --- Streamlit & IDE ---
+# Streamlit local config aur VS Code settings
+.streamlit/
+.vscode/
+.idea/
+.DS_Store
+
+# --- Logs & Temp ---
+*.log
+*.tmp
